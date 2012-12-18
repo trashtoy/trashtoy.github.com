@@ -60,7 +60,7 @@ body {
   color:#373737;
   background: #212121;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'ƒƒCƒŠƒI', 'Osaka', '‚l‚r ‚oƒSƒVƒbƒN', 'tahoma', 'verdana', 'arial', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -127,7 +127,7 @@ a {
 
 #main_content a:hover {
   color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  text-decoration: underline;
 }
 
 footer a:hover {
@@ -219,7 +219,6 @@ dl dt {
 
 dl dd {
   padding-left: 20px;
-  font-style: italic;
 }
 
 dl p {
