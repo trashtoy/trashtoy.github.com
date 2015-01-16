@@ -130,7 +130,7 @@
             </section>
             <section class="item" id="methodformatDate">
                 <h1><b>formatDate</b></h1>
-                <p class="linenumber">line 229</p>
+                <p class="linenumber">line 235</p>
                 <div class="signature">
                     <code>string formatDate(<a href="../DT/Peach_DT_Date.html">Peach_DT_Date</a> $d)</code>
                 </div>
@@ -152,7 +152,7 @@
                         <tr>
                             <td class="type"><a href="../DT/Peach_DT_Date.html">Peach_DT_Date</a>&nbsp;&nbsp;</td>
                             <td><b>$d</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>解析対象の Date オブジェクト</td>
                         </tr>
                     </table>
                 </section>
@@ -169,7 +169,7 @@
             </section>
             <section class="item" id="methodformatDatetime">
                 <h1><b>formatDatetime</b></h1>
-                <p class="linenumber">line 241</p>
+                <p class="linenumber">line 248</p>
                 <div class="signature">
                     <code>string formatDatetime(<a href="../DT/Peach_DT_Datetime.html">Peach_DT_Datetime</a> $d)</code>
                 </div>
@@ -192,7 +192,7 @@
                         <tr>
                             <td class="type"><a href="../DT/Peach_DT_Datetime.html">Peach_DT_Datetime</a>&nbsp;&nbsp;</td>
                             <td><b>$d</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>変換対象の Datetime オブジェクト</td>
                         </tr>
                     </table>
                 </section>
@@ -209,7 +209,7 @@
             </section>
             <section class="item" id="methodformatTimestamp">
                 <h1><b>formatTimestamp</b></h1>
-                <p class="linenumber">line 254</p>
+                <p class="linenumber">line 262</p>
                 <div class="signature">
                     <code>string formatTimestamp(<a href="../DT/Peach_DT_Timestamp.html">Peach_DT_Timestamp</a> $d)</code>
                 </div>
@@ -232,7 +232,7 @@
                         <tr>
                             <td class="type"><a href="../DT/Peach_DT_Timestamp.html">Peach_DT_Timestamp</a>&nbsp;&nbsp;</td>
                             <td><b>$d</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>変換対象の Timestamp オブジェクト</td>
                         </tr>
                     </table>
                 </section>
@@ -249,9 +249,9 @@
             </section>
             <section class="item" id="methodparseDate">
                 <h1><b>parseDate</b></h1>
-                <p class="linenumber">line 160</p>
+                <p class="linenumber">line 161</p>
                 <div class="signature">
-                    <code><a href="../DT/Peach_DT_Date.html">Peach_DT_Date</a> parseDate( $format)</code>
+                    <code><a href="../DT/Peach_DT_Date.html">Peach_DT_Date</a> parseDate(string $format)</code>
                 </div>
                 <div class="docblock">
                     <p>&quot;YYYY-MM-DD&quot; 形式の文字列を解析します.</p>
@@ -259,6 +259,7 @@
                 <section class="meta tags">
                     <h1>Tags</h1>
                     <ul>
+                        <li>return : 解析結果</li>
                         <li>see : <a href="../DT/Peach_DT_Format.html#methodparseDate">Peach_DT_Format::parseDate()</a></li>
                         <li>access : public</li>
                     </ul>
@@ -268,9 +269,9 @@
                     <h1>引数</h1>
                     <table>
                         <tr>
-                            <td class="type">&nbsp;&nbsp;</td>
+                            <td class="type">string&nbsp;&nbsp;</td>
                             <td><b>$format</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>解析対象の文字列</td>
                         </tr>
                     </table>
                 </section>
@@ -287,9 +288,9 @@
             </section>
             <section class="item" id="methodparseDatetime">
                 <h1><b>parseDatetime</b></h1>
-                <p class="linenumber">line 180</p>
+                <p class="linenumber">line 182</p>
                 <div class="signature">
-                    <code><a href="../DT/Peach_DT_Datetime.html">Peach_DT_Datetime</a> parseDatetime( $format)</code>
+                    <code><a href="../DT/Peach_DT_Datetime.html">Peach_DT_Datetime</a> parseDatetime(string $format)</code>
                 </div>
                 <div class="docblock">
                     <p>&quot;YYYY-MM-DDThh:mm&quot; 形式の文字列を解析します.</p>
@@ -308,9 +309,9 @@
                     <h1>引数</h1>
                     <table>
                         <tr>
-                            <td class="type">&nbsp;&nbsp;</td>
+                            <td class="type">string&nbsp;&nbsp;</td>
                             <td><b>$format</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>解析対象の文字列</td>
                         </tr>
                     </table>
                 </section>
@@ -327,9 +328,9 @@
             </section>
             <section class="item" id="methodparseTimestamp">
                 <h1><b>parseTimestamp</b></h1>
-                <p class="linenumber">line 204</p>
+                <p class="linenumber">line 208</p>
                 <div class="signature">
-                    <code><a href="../DT/Peach_DT_Timestamp.html">Peach_DT_Timestamp</a> parseTimestamp( $format)</code>
+                    <code><a href="../DT/Peach_DT_Timestamp.html">Peach_DT_Timestamp</a> parseTimestamp(string $format)</code>
                 </div>
                 <div class="docblock">
                     <p>&quot;YYYY-MM-DDThh:mm:ss&quot; 形式の文字列を解析します.</p>
@@ -347,9 +348,9 @@
                     <h1>引数</h1>
                     <table>
                         <tr>
-                            <td class="type">&nbsp;&nbsp;</td>
+                            <td class="type">string&nbsp;&nbsp;</td>
                             <td><b>$format</b>&nbsp;&nbsp;</td>
-                            <td></td>
+                            <td>解析対象の文字列</td>
                         </tr>
                     </table>
                 </section>
@@ -368,7 +369,7 @@
         </section>
     </article>
     <footer>
-        <p>Documentation generated on Sun, 24 Aug 2014 15:40:50 +0900 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a></p>
+        <p>Documentation generated on Wed, 14 Jan 2015 12:47:36 +0900 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a></p>
     </footer>
 </div>
 <nav id="menu">
