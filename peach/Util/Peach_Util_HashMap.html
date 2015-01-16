@@ -171,7 +171,7 @@
                 <h1><b>createEntry</b></h1>
                 <p class="linenumber">line 339</p>
                 <div class="signature">
-                    <code><a href="../Util/Peach_Util_HashMapEntry.html">Peach_Util_HashMapEntry</a> createEntry(mixed $key, mixed $value)</code>
+                    <code>HashMapEntry createEntry(mixed $key, mixed $value)</code>
                 </div>
                 <div class="docblock">
                     <p>指定されたキーと値をマッピングする, 新しいエントリーを構築します.</p>
@@ -180,6 +180,7 @@
                 <section class="meta tags">
                     <h1>Tags</h1>
                     <ul>
+                        <li>return : 引数の $key と $value をマッピングした HashMapEntry</li>
                         <li>access : protected</li>
                     </ul>
                 </section>
@@ -190,12 +191,12 @@
                         <tr>
                             <td class="type">mixed&nbsp;&nbsp;</td>
                             <td><b>$key</b>&nbsp;&nbsp;</td>
-                            <td>マッピングのキー.</td>
+                            <td>マッピングのキー</td>
                         </tr>
                         <tr>
                             <td class="type">mixed&nbsp;&nbsp;</td>
                             <td><b>$value</b>&nbsp;&nbsp;</td>
-                            <td>マッピングの値.</td>
+                            <td>マッピングの値</td>
                         </tr>
                     </table>
                 </section>
@@ -278,13 +279,15 @@
                 <h1><b>keys</b></h1>
                 <p class="linenumber">line 243</p>
                 <div class="signature">
-                    <code>void keys()</code>
+                    <code>array keys()</code>
                 </div>
                 <div class="docblock">
+                    <p>この HashMap に含まれるキーの一覧を返します.</p>
                 </div>
                 <section class="meta tags">
                     <h1>Tags</h1>
                     <ul>
+                        <li>return : この HashMap に含まれるキーの配列</li>
                         <li>access : public</li>
                     </ul>
                 </section>
@@ -477,7 +480,7 @@
         </section>
     </article>
     <footer>
-        <p>Documentation generated on Sun, 24 Aug 2014 15:40:48 +0900 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a></p>
+        <p>Documentation generated on Wed, 14 Jan 2015 12:47:35 +0900 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.3</a></p>
     </footer>
 </div>
 <nav id="menu">
